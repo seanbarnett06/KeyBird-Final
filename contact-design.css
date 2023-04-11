@@ -1,0 +1,155 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #575555;
+    color: #fff;
+}
+
+header {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #d2d2d2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: lighter;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s ease-in-out;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid #fff;
+    transform: translateY(-2px);
+}
+
+/* website main body */
+
+main {
+    font-family: calibri;
+}
+
+.container {
+	margin: 50px auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #0077FF;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #005BC1;
+}
+
+/* website footer */
+
+footer {
+    background-color: #575557;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .logo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    margin-left: 20px;
+  }
+  
+  .footer-website {
+    font-family: calibri;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .footer-website h4 {
+    font-style: oblique;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-website p {
+    font-size: 20px;
+    margin: 0;
+  }
